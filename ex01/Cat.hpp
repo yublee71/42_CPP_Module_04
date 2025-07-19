@@ -2,6 +2,7 @@
 #define CAT_HPP
 
 #include "Animal.hpp"
+#include "Brain.hpp"
 
 class Cat : public Animal {
 public:
@@ -12,6 +13,9 @@ public:
   Cat &operator=(const Cat &other);
 
   void makeSound() const;
+
+private:
+  Brain *brain_;
 };
 
 #endif

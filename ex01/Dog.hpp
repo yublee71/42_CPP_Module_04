@@ -2,6 +2,7 @@
 #define DOG_HPP
 
 #include "Animal.hpp"
+#include "Brain.hpp"
 
 class Dog : public Animal {
 public:
@@ -12,6 +13,9 @@ public:
   Dog &operator=(const Dog &other);
 
   void makeSound() const;
+
+private:
+  Brain *brain_;
 };
 
 #endif
