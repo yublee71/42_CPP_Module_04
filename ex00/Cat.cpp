@@ -10,7 +10,7 @@ Cat::Cat(const Cat &other) : Animal(other.type_) {
   std::cout << "[Cat] Copy constructor is called." << std::endl;
 }
 
-Cat::~Cat() { std::cout << "[Cat] Default Destructor is called." << std::endl; }
+Cat::~Cat() { std::cout << "[Cat] Default destructor is called." << std::endl; }
 
 Cat &Cat::operator=(const Cat &other) {
   std::cout << "[Cat] Copy assignment operator called." << std::endl;

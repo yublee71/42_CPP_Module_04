@@ -11,7 +11,7 @@ WrongCat::WrongCat(const WrongCat &other) : WrongAnimal(other.type_) {
 }
 
 WrongCat::~WrongCat() {
-  std::cout << "[WrongCat] Default Destructor is called." << std::endl;
+  std::cout << "[WrongCat] Default destructor is called." << std::endl;
 }
 
 WrongCat &WrongCat::operator=(const WrongCat &other) {

@@ -10,7 +10,7 @@ Dog::Dog(const Dog &other) : Animal(other.type_) {
   std::cout << "[Dog] Copy constructor is called." << std::endl;
 }
 
-Dog::~Dog() { std::cout << "[Dog] Default Destructor is called." << std::endl; }
+Dog::~Dog() { std::cout << "[Dog] Default destructor is called." << std::endl; }
 
 Dog &Dog::operator=(const Dog &other) {
   std::cout << "[Dog] Copy assignment operator called." << std::endl;
