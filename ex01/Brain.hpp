@@ -13,8 +13,11 @@ public:
 
   Brain &operator=(const Brain &other);
 
+  void setIdea(int i, const std::string idea);
+  std::string getIdea(int i) const;
+
 private:
-  std::string ideas[N_OF_IDEA];
+  std::string ideas_[N_OF_IDEA];
 };
 
 #endif

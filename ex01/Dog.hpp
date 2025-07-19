@@ -14,6 +14,9 @@ public:
 
   void makeSound() const;
 
+  void setBrain(int i, const std::string &idea);
+  std::string getBrain(int i) const;
+
 private:
   Brain *brain_;
 };
