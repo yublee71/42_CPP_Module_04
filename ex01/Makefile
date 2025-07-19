@@ -9,7 +9,8 @@ SRCS			:= \
 					Dog.cpp \
 					Cat.cpp \
 					WrongAnimal.cpp \
-					WrongCat.cpp
+					WrongCat.cpp \
+					Brain.cpp
 
 BUILD_DIR		:= build
 OBJS			:= $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
