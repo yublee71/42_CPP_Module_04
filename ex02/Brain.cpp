@@ -5,7 +5,7 @@
 Brain::Brain() {
   std::cout << "[Brain] Default constructor is called." << std::endl;
   for (int i = 0; i < N_OF_IDEA; ++i)
-    ideas_[i] = "I am idea " + i;
+    ideas_[i] = "I am a random idea";
 }
 
 Brain::Brain(const Brain &other) {
