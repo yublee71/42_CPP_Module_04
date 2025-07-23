@@ -27,6 +27,7 @@ int main() {
     delete animals[i];
 
   Dog *dog1 = new Dog();
+  std::cout << dog1->getBrain(1) << std::endl;
   dog1->setBrain(0, "I am hungry");
 
   Dog *dog2 = new Dog(*dog1);
